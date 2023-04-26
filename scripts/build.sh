@@ -63,11 +63,11 @@ export LC_ALL="C"
 
 # Default Build Type
 if [ -z "$FOX_BUILD_TYPE" ]; then
-    export FOX_BUILD_TYPE="Unofficial-CI"
+    export FOX_BUILD_TYPE="Unofficial"
 fi
 
 # Default Maintainer's Name
-[ -z "$OF_MAINTAINER" ] && export OF_MAINTAINER="Unknown"
+[ -z "$OF_MAINTAINER" ] && export OF_MAINTAINER="ShazuxD"
 
 # Set BRANCH_INT variable for future use
 BRANCH_INT=$(echo $SYNC_BRANCH | cut -d. -f1)
@@ -90,7 +90,10 @@ if [ "$BRANCH_INT" -ge 11 ]; then
 else
     lunch omni_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 fi
-
+export export OF_AB_DEVICE=1
+export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
+export OF_VIRTUAL_AB_DEVICE=1
+export OF_FORCE_PREBUILT_KERNEL=1 
 # Build the Code
 if [ -z "$J_VAL" ]; then
     mka -j$(nproc --all) $TARGET || { echo "ERROR: Failed to Build OrangeFox!" && exit 1; }
