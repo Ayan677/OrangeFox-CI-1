@@ -8,7 +8,7 @@ export DEVICE="fleur"
 export OEM="xiaomi"
 
 # Build Target
-## "recoveryimage" - for A-Only Devices without using Vendor Boot
+## "recoveryimage" - for A-nly Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
 export TARGET="bootimage"
