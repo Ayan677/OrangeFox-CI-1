@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/ShazuxD/recovery-pbrb -b fox"
+export DT_LINK="https://gitlab.com/ShazuxD1/d -b twrp-12.1"
 
 export DEVICE="fleur"
 export OEM="xiaomi"
@@ -18,7 +18,7 @@ export OUTPUT="OrangeFox*.zip"
 # Additional Dependencies (eg: Kernel Source)
 # Format: "repo dest"
 DEPS=(
-    "https://github.com/OrangeFoxRecovery/Avatar.git misc"
+    "https://github.com/ShazuxD/extras.got -b fox misc"
 )
 
 # Extra Command
