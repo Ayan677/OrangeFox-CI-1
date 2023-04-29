@@ -90,7 +90,7 @@ if [ "$BRANCH_INT" -ge 11 ]; then
 else
     lunch omni_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 fi
-export export OF_AB_DEVICE=1
+export OF_AB_DEVICE=1
 export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 export OF_VIRTUAL_AB_DEVICE=1
 export OF_FORCE_PREBUILT_KERNEL=1 
