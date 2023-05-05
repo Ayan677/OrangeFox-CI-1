@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://gitlab.com/ShazuxD1/d -b twrp-12.1"
+export DT_LINK="https://github.com/ShazuxD/device_xiaomi_fleur-twrp -b twrp-12.1"
 
 export DEVICE="fleur"
 export OEM="xiaomi"
@@ -25,7 +25,7 @@ DEPS=(
 export EXTRA_CMD="export OF_MAINTAINER=ShazuxD"
 
 # Magisk
-## Use the Latest Release of Magisk for the OrangeFox addon
+## Use the Latest Release of Magisk for the OrangeFx addon
 export OF_USE_LATEST_MAGISK=true
 
 # Not Recommended to Change
