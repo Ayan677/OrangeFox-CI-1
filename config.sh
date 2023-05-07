@@ -16,10 +16,10 @@ export TARGET="bootimage"
 export OUTPUT="OrangeFox-Unofficial-fleur.zip"
 
 # Additional Dependencies (eg: Kernel Source)
-# Format: "repo dest"
-DEPS=(
-    "https://github.com/ShazuxD/extras.got -b fox misc"
-)
+
+
+
+
 
 # Extra Command
 export EXTRA_CMD="export OF_MAINTAINER=Rohit"
