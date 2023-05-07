@@ -21,7 +21,7 @@ wget https://www.google.com/url?sa=t&source=web&rct=j&url=https://github.com/top
 export FOX_USE_SPECIFIC_MAGISK_ZIP="device/xiaomi/fleur/Magisk.zip"
 export BUNDLED_MAGISK_VER="25.2" 
 export BUNDLED_MAGISK_SUM="0bdc32918b6ea502dca769b1c7089200da51ea1def170824c2812925b426d509" 
-# Sha256 sum of the prebuilt magisk
+
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFx addon
