@@ -15,12 +15,6 @@ export TARGET="bootimage"
 
 export OUTPUT="OrangeFox-Unofficial-fleur.zip"
 
-# Additional Dependencies (eg: Kernel Source)
-
-
-
-
-
 # Extra Command
 export EXTRA_CMD="export OF_MAINTAINER=Rohit"
 
