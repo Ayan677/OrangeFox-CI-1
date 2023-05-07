@@ -25,7 +25,7 @@ export BUNDLED_MAGISK_SUM="0bdc32918b6ea502dca769b1c7089200da51ea1def170824c2812
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFx addon
-export OF_USE_LATEST_MAGISK=true
+export OF_USE_LATEST_MAGISK=false
 
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
