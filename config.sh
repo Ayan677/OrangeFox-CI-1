@@ -2,7 +2,7 @@
 
 # Device
 export FOX_BRANCH="fox_12.1"
-export DT_LINK="https://github.com/RT1648/device_xiaomi_fleur-shrp -b twrp-12.1"
+export DT_LINK="https://github.com/RT1648/device_xiaomi_fleur-twrp -b twrp-12.1"
 
 export DEVICE="fleur"
 export OEM="xiaomi"
